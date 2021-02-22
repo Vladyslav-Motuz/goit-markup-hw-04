@@ -14,7 +14,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 * {
@@ -40,6 +40,7 @@ img {
 .page-header .container {
   display: flex;
   justify-content: space-between;
+  padding: 24px 0;
 }
 .site-nav li {
   margin-left: 50px;
@@ -78,6 +79,8 @@ img {
   font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
 }
 
 .contact-info a:hover,
@@ -171,7 +174,6 @@ img {
   font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
   margin-top: 30px;
 }
 
@@ -181,6 +183,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 
 .advant h2 {
@@ -227,6 +230,7 @@ img {
   margin-top: 50px;
 }
 .team-tumb {
+  width: 270px;
   background-color: rgba(255, 255, 255, 1);
   margin-left: 30px;
   border-radius: 0px 0px 4px 4px;
@@ -338,6 +342,7 @@ img {
 .footer .container {
   padding: 60px 15px;
   display: flex;
+  align-items: baseline;
 }
 
 .footer {
@@ -478,7 +483,7 @@ img {
 }
 
 .examples li {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   box-sizing: border-box;
